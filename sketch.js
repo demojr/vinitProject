@@ -2,7 +2,8 @@ var player,form,game,database
 var gameState=0
 var playerCount=0
 var players,player1,player2,allPlayers,box,infinity,play1Img,play2Img,boxImg,infinImg,play1Img2,play2Img2
-var wall1,wall2, wall3, wall4
+var wall1,wall2, wall3, wall4;
+var allPlayers;
 function preload(){
   play1Img = loadImage("blackPanther2.png")
   play2Img = loadImage("vision2.png")
